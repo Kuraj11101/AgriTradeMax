@@ -28,6 +28,7 @@ import { SellerComponent } from './views/seller/seller.component';
 import { WhoweareComponent } from './whoweare/whoweare.component';
 import { MeetourteamComponent } from './meetourteam/meetourteam.component';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -47,7 +48,8 @@ import { RegisterComponent } from './register/register.component';
     SellerComponent,
     WhoweareComponent,
     MeetourteamComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

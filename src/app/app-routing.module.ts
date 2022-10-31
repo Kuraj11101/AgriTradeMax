@@ -14,6 +14,7 @@ import {  GamestoreComponent } from './gamestore/gamestore.component';
 import { SellerComponent } from './views/seller/seller.component';
 import { WhoweareComponent } from './whoweare/whoweare.component';
 import {  MeetourteamComponent } from './meetourteam/meetourteam.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {
@@ -134,6 +135,16 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'meetourteam',
+    pathMatch: 'full'
+
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
+  },
+  {
+    path: '',
+    redirectTo: 'register',
     pathMatch: 'full'
 
   },
