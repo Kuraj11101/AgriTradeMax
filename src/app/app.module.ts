@@ -24,9 +24,10 @@ import { HireresponseComponent } from './views/response/hireresponse/hirerespons
 import { ContactresponseComponent } from './views/response/contactresponse/contactresponse.component';
 import { StoresComponent } from './stores/stores.component';
 import { GamestoreComponent } from './gamestore/gamestore.component';
-import { AboutusComponent } from './views/aboutus/aboutus.component';
+import { SellerComponent } from './views/seller/seller.component';
 import { WhoweareComponent } from './whoweare/whoweare.component';
 import { MeetourteamComponent } from './meetourteam/meetourteam.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -43,9 +44,10 @@ import { MeetourteamComponent } from './meetourteam/meetourteam.component';
     ContactresponseComponent,
     StoresComponent,
     GamestoreComponent,
-    AboutusComponent,
+    SellerComponent,
     WhoweareComponent,
-    MeetourteamComponent
+    MeetourteamComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
