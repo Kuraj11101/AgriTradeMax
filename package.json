@@ -1,0 +1,84 @@
+{
+  "name": "smovwebplatform",
+  "version": "0.0.1",
+  "nodemonConfig": {
+    "ext": "js,json,ts,css,html"
+  },
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "start": "node server.js",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-devkit/build-angular": "^12.1.4",
+    "@angular/animations": "~12.1.1",
+    "@angular/cdk": "^12.1.1",
+    "@angular/cli": "^12.1.4",
+    "@angular/common": "~12.1.1",
+    "@angular/compiler": "~12.1.1",
+    "@angular/compiler-cli": "^12.1.5",
+    "@angular/core": "~12.1.1",
+    "@angular/forms": "~12.1.1",
+    "@angular/localize": "^12.1.1",
+    "@angular/material": "^12.1.1",
+    "@angular/platform-browser": "~12.1.1",
+    "@angular/platform-browser-dynamic": "~12.1.1",
+    "@angular/router": "~12.1.1",
+    "@ng-bootstrap/ng-bootstrap": "^10.0.0",
+    "@types/compression": "^1.7.1",
+    "body-parser": "^1.20.0",
+    "cool-ascii-faces": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "gulp": "^4.0.2",
+    "heroku-client": "^3.1.0",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.7.5",
+    "nodemailer-mailgun-transport": "^2.1.3",
+    "path": "^0.12.7",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.5",
+    "zone.js": "~0.11.4"
+  },
+  "engines": {
+    "node": "16.15.0",
+    "npm": "6.14.8"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.5",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "aws-sdk": "^2.1023.0",
+    "jasmine-core": "~3.7.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "nodemon": "^2.0.14"
+  },
+  "description": "This project was built by Samly Courage Panton with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.",
+  "main": ".babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMOVDEV/smovwebplatform.git"
+  },
+  "keywords": [
+    "SMOVTEK LLC Web Platform"
+  ],
+  "author": "Samly Courage Panton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMOVDEV/smovwebplatform/issues"
+  },
+  "homepage": "https://smovtek.com"
+}
