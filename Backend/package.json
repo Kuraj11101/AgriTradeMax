@@ -1,0 +1,20 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "smovtek backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": "smovtek web platform backend",
+  "author": "Samly Courage Panton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
