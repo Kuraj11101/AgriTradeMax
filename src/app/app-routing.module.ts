@@ -11,7 +11,7 @@ import { ProductComponent } from './views/about/product.component';
 import { HireresponseComponent } from './views/response/hireresponse/hireresponse.component';
 import { ContactresponseComponent } from './views/response/contactresponse/contactresponse.component';
 import {  GamestoreComponent } from './gamestore/gamestore.component';
-import { AboutusComponent } from './views/aboutus/aboutus.component';
+import { SellerComponent } from './views/seller/seller.component';
 import { WhoweareComponent } from './whoweare/whoweare.component';
 import {  MeetourteamComponent } from './meetourteam/meetourteam.component';
 
@@ -108,12 +108,12 @@ const routes: Routes = [
 
   },
   {
-    path: 'aboutus',
-    component: AboutusComponent
+    path: 'seller',
+    component: SellerComponent
   },
   {
     path: '',
-    redirectTo: 'aboutus',
+    redirectTo: 'seller',
     pathMatch: 'full'
 
   },
