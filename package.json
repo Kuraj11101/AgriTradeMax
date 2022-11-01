@@ -47,7 +47,7 @@
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "typescript": "<4.4.0",
-    "zone.js": "^0.11.4"
+    "zone.js": "^0.11.4",
   },
   "devDependencies": {
     "@types/core-js": "^2.5.5",
@@ -76,5 +76,5 @@
   "bugs": {
     "url": "https://github.com/SMOVDEV/smovwebplatform/issues"
   },
-  "homepage": "https://smovtek.com"
+  "homepage": "https://smovtek.com/"
 }
